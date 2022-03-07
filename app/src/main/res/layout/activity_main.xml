@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TvDeath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/counter"
+        android:textSize="80sp"
+        android:textColor="@color/red"
+        android:fontFamily="cursive"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDeksia"
+        app:layout_constraintStart_toStartOf="@+id/guidelineAristera"
+        app:layout_constraintTop_toTopOf="@+id/guidelinePanw" />
+
+    <Button
+        android:id="@+id/BtDeath"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif"
+        android:shadowColor="@color/white"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:singleLine="true"
+        android:text="@string/you_died"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDeksia"
+        app:layout_constraintStart_toStartOf="@+id/guidelineAristera"
+        app:layout_constraintTop_toBottomOf="@+id/guidelinePanw2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineAristera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="60dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePanw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="80dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineDeksia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="60dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineKatw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="50dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePanw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="250dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineDeksia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FbtUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_2"
+        android:tint="@color/yellow"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toTopOf="@id/guidelineKatw"
+        app:layout_constraintEnd_toStartOf="@id/guidelineDeksia2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

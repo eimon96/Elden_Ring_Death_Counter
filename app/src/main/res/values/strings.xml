@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Elden Ring Death Counter</string>
+    <string name="dying_already">Dying Already?</string>
+    <string name="info">Info</string>
+    <string name="counter">0</string>
+    <string name="you_died">You died</string>
+    <string name="reset">Reset</string>
+
+    <string name="dialog_text">Reset counter back to 0?</string>
+</resources>
