@@ -7,4 +7,12 @@
     <string name="reset">Reset</string>
 
     <string name="dialog_text">Reset counter back to 0?</string>
+
+    <string name="huge_text">Feel free to go off and die in a ditch somewhere..</string>
+
+    <string name="disclaimer">"Disclaimer! \nThis app is fan-made! I am not affiliated with From Software or any of its partners."</string>
+
+    <string name="how">"Press 'You Died' if you died into that ditch. \nPress the Undo Button if you hit your phone unintentionally. Or so you say."</string>
+
+    <string name="author">eimon</string>
 </resources>

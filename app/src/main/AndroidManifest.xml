@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/EldenRingDeathCounter">
         <activity
+            android:name=".AboutActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/splashScreenTheme"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

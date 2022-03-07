@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -104,8 +105,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (id == R.id.Info)
         {
-//            Intent iAbout = new Intent(MainActivity.this, AboutActivity.class);
-//            startActivity(iAbout);
+            Intent iAbout = new Intent(MainActivity.this, AboutActivity.class);
+            startActivity(iAbout);
             return true;
         }
 
