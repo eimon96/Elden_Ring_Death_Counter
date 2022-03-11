@@ -30,3 +30,9 @@ PIXEL 5 (12 API 31) (EMULATED)
 
 # Disclaimer! 
 This app is fan-made! I am not affiliated with From Software or any of its partners.
+
+------------------------------------------------------------------------------------------
+
+# Play Store Link:
+
+https://play.google.com/store/apps/details?id=com.eimon.eldenringdeathcounter
