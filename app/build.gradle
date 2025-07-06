@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.eimon.eldenringdeathcounter"
         minSdk 28
-        targetSdk 34
+        targetSdk 36
         versionCode 4
-        versionName "1.04"
+        versionName '1.05'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
